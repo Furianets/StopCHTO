@@ -1,7 +1,7 @@
 ﻿#include<iostream>
 using namespace std;
 
-int fib(int n) {
+void fib(int n) {
 	int x0 = 0;
 	int x1 = 1;
 	cout << x0 << endl;
@@ -24,5 +24,5 @@ int main() {
 
 	cin >> n;
 
-	cout << fib(n);
+	fib(n);
 }
